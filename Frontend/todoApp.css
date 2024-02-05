@@ -1,0 +1,109 @@
+* {
+  font-family: "Tilt Neon", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+.container {
+  
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.todo-app {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: auto;
+  padding: 30px 30px 50px;
+  border-radius: 10px;
+}
+.todo-app h2 {
+  color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  background: #edeef0;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: 0;
+  background: transparent;
+  padding: 10px;
+  font-size: 20px;
+}
+.row button {
+  border: none;
+  outline: 0;
+  padding: 16px 50px;
+  background: #b5770e;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .chore {
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding:15px 0;
+  }
+  
+  .chore p {
+    margin: 0 10px 0 0;
+    font-size: 20px;
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .chore button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+i {
+  font-size: 20px;
+}
+
+.left{
+    display: flex;
+}
+
+.task-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.delete-btn{
+  cursor: pointer;
+}
+
+.task-name{
+  display: flex;
+  align-items: center;
+}
+
